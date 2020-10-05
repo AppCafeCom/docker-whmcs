@@ -1,8 +1,8 @@
 FROM    ajoergensen/baseimage-ubuntu
 
-LABEL	maintainer="Rizal Fauzie Ridwan <rizal@fauzie.my.id>"
+LABEL	maintainer="Vinay Agarwal <accounts@appcafe.com>"
 
-ENV     PHP_VERSION=7.3 \
+ENV     PHP_VERSION=7.4 \
         VIRTUAL_HOST=$DOCKER_HOST \
         HOME=/var/www/whmcs \
         PUID=1000 \
